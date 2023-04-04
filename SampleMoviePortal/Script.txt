@@ -1,0 +1,20 @@
+Create TABLE Movies(
+    Id BLOB Primary Key, 
+    Title varchar(255) NOT NULL, 
+    Genre varchar(255) NOT NULL, 
+    ReleaseYear INT NOT NULL
+);
+
+Insert Into Movies(Id,Title,ReleaseYear,Genre) Values ( 1,"Brahmastra",  2022,  "Fantasy" );
+Insert Into Movies(Id,Title,ReleaseYear,Genre) Values (  2, "Pathan",  2023,  "Action" );
+Insert Into Movies(Id,Title,ReleaseYear,Genre) Values (  3, "Cirkus",  2022,  "Comedy" );
+Insert Into Movies(Id,Title,ReleaseYear,Genre) Values (  4, "Mission Majnu",  2023,  "Thriller" );
+Insert Into Movies(Id,Title,ReleaseYear,Genre) Values (  5, "Baghi 3",  2020,  "Action" );
+Insert Into Movies(Id,Title,ReleaseYear,Genre) Values (  6, "Mai hoon na",  2004,  "Romance" );
+Insert Into Movies(Id,Title,ReleaseYear,Genre) Values (  7, "War",  2019,  "Action" );
+Insert Into Movies(Id,Title,ReleaseYear,Genre) Values (  8, "Ghajini",  2008,  "Thriller" );
+Insert Into Movies(Id,Title,ReleaseYear,Genre) Values (  9, "Agnipath",  2012,  "Crime" );
+Insert Into Movies(Id,Title,ReleaseYear,Genre) Values (  10, "Raazi",  2018,  "Thriller" );
+
+
+select * from Movies
